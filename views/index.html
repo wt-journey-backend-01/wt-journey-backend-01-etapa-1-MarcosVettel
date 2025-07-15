@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBurger</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+      <a class="logo" href="/">
+        <img src="/images/logo.png" alt="DevBurger Logo">
+        <p class="title" href="/">DevBurger</p>
+      </a>
+
+      <div class="cabecalho">
+        <a class="contato" href="/contato">Contato</a>
+        <a class="api" href="/api/lanches">API L.</a>
+        <a class="api" href="/api/contato">API C.</a>
+      </div>
+    </header>
+
+    <h1>Menu</h1>
+
+    <div id="menu">
+
+    </div>
+
+    <h1>Formulário Menu</h1>
+
+    <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="ingredientes">Ingredientes:</label>
+        <textarea id="ingredientes" name="ingredientes" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>

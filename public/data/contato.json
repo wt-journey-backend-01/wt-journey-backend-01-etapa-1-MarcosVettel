@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nome": "Tram Anh Nguyen",
+    "email": "tramanh@gmail.com",
+    "assunto": "Sugestão de Evento",
+    "mensagem": "Gostaria de sugerir que vocês organizassem um evento de degustação de novos lanches!"
+  },
+  {
+    "id": 2,
+    "nome": "Marcos Paulo",
+    "email": "marcos.teste@gmail.com",
+    "assunto": "Testando o site",
+    "mensagem": "1, 2, 3 testando..."
+  }
+]
